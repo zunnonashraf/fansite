@@ -4,17 +4,34 @@ body {
 	font-size: 12px;
 	line-height: 20px;
 	margin: 0; 
+	background: url(giphy.gif) 0 0;
+}
+ #text {	
+	font-family: Geneva, Tahoma, sans-serif;
+	font-size: 22px;
+	margin: 10 auto;
+	text-align: center;
+	padding: 30px;
+
 }
 #banner {
 	width: 500px;
 	margin: 0 auto;
 	text-align: center;
 	padding: 10px;
-	background-image: url(“”);
+	border: 70px;
+	border-color: pink;
+
 }
 #nav{
 	white-space: nowrap;
 	text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 18px;
+    text-transform: capitalize;
+    width: 700px;
+    margin: 0 auto;
 }
 #nav a{
 	font-family: (your choice);
@@ -29,11 +46,12 @@ body {
 	width:100%;
 }
 #main{
-	width:25%;
+	width:100%;
 		}
-.imgLeft{
-	float:left;
-	margin-right:15;
+
+.imgLeft {
+    float : left;
+    margin-right: 10px;
 		}
 .imgRight{
 	float:right;
@@ -44,15 +62,15 @@ body {
 	width:35%;
 	}
 #footer{
-	width:()px;
+	width:15px;
 	margin-left: auto;
 	margin-right: auto;
-	font-family: ();
-	color:();
-	font-size:()
+	font-family: Geneva, Tahoma, sans-serif;;
+	color:pink;
+	font-size:15px;
 	text-transform: uppercase;
-	border: ();
-	padding-top: ();
+	border: 25px ;
+	padding-top: 30px;
 		}
 
 
