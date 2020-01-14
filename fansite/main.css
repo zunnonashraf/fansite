@@ -6,6 +6,26 @@ body {
 	line-height: 20px;
 	margin: 0; 
 	background: url(images/giphy.gif) 0 0;
+	background-size: 100%;
+
+}
+h1{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 26px;
+	margin: 10 auto;
+	text-align: center;
+	padding: 30px;
+
+}
+h2{
+	font-family: 'Luckiest Guy', cursive;
+	font-size: 22px;
+	margin: 10 auto;
+	text-align: center;
+	padding: 10px;
+}
+h2:hover{
+        transform: scale(2);
 }
  #text {	
 	font-family: 'Luckiest Guy', cursive;
@@ -33,6 +53,14 @@ body {
     border-radius: 10px;
    font-weight: bold;
 
+}
+.form {
+    border: 2px solid darkred;
+    border-radius: 10px;
+transition: .5s;
+    }
+    .form:hover{
+        transform: scale(.8);
 }
 #nav{
 	white-space: nowrap;
