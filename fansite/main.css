@@ -37,6 +37,7 @@ h2:hover{
 	padding: 30px;
 
 }
+
 #banner {
 	width: 500px;
 	margin: 0 auto;
@@ -59,7 +60,7 @@ h2:hover{
 .form {
     border: 2px solid darkred;
     border-radius: 10px;
-transition: .5s;
+	transition: .5s;
     }
     .form:hover{
         transform: scale(.8);
@@ -75,6 +76,16 @@ transition: .5s;
     margin: 0 auto;
     border-width:10px;
     border-color: ;
+}
+#store{
+	 width: 800px;
+    margin: 0 auto;
+  	background:rgba(216, 216, 38, 0.56);
+    padding : 10px;
+    border: 2px solid darkred;
+    border-radius: 10px;
+   font-weight: bold;
+	height:500px;
 }
 #nav a{
 	font-family: 'Luckiest Guy', cursive;
@@ -95,6 +106,10 @@ transition: .5s;
 #main{
 	width:100%;
 		}
+.items{
+	border: 5px solid grey;
+
+}
 
 .imgLeft {
     float : left;
