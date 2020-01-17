@@ -85,7 +85,8 @@ h2:hover{
     border: 2px solid darkred;
     border-radius: 10px;
    font-weight: bold;
-	height:500px;
+	height:300px;
+	text-align: center;
 }
 #nav a{
 	font-family: 'Luckiest Guy', cursive;
@@ -124,6 +125,11 @@ h2:hover{
 	padding-bottom: 15px;
 
 		}
+
+.product{
+	text-align: center;
+	font-size: 24px;
+}
 
 #aside{
 	width:35%;
